@@ -1,0 +1,36 @@
+# Create .gitignore
+cat > .gitignore << 'EOF'
+# Composer dependencies (will be installed automatically)
+public/vendor/
+
+# Docker volumes
+mysql_data/
+mongo_data/
+
+# Admin tools (optional)
+admin.html
+php/admin.php
+
+# OS files
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+EOF
