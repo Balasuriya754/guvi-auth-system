@@ -1,8 +1,6 @@
 $(document).ready(function () {
 
-    // -------------------------------------------
-    // CHECK FOR LOGIN TOKEN (GUVI RULE)
-    // -------------------------------------------
+
     let token = localStorage.getItem("guvi_token");
     let userId = localStorage.getItem("guvi_user_id");
 
